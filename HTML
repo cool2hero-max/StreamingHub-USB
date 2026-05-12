@@ -1,0 +1,38 @@
+StreamingHub-USB/
+│
+├── index.html
+├── style.css
+├── script.js
+├── channels.m3u
+├── launcher.py
+├── run.bat
+└── README.md
+<!DOCTYPE html>
+<html>
+<head>
+<title>Streaming Hub</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🎬 Streaming Hub</h1>
+
+<div class="grid">
+
+<button onclick="openSite('https://pluto.tv')">Pluto TV</button>
+
+<button onclick="openSite('https://tubitv.com')">Tubi</button>
+
+<button onclick="openSite('https://watch.plex.tv')">Plex Free</button>
+
+<button onclick="openSite('https://www.youtube.com/live')">YouTube Live</button>
+
+<button onclick="openVLC()">Live Channels (VLC)</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
